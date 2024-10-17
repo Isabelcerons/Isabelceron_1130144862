@@ -53,7 +53,7 @@ const anyProducts = [
 const filterProducts = anyProducts.filter((product) => product.price > 900);
 console.log('filtrado por el metodo filter: ', filterProducts);
 const filterProductsFor = [];
-for (let i = 0; i < anyProducts.length; i++) {
+for (let i = 0; i < anyProducts.length; i) {
     if (anyProducts[i].price > 900) {
         filterProductsFor.push(anyProducts[i]);
     }

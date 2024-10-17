@@ -23,7 +23,7 @@
     "@typescript-eslint/no-throw-literal": "off",
     "no-restricted-syntax": "off",
     "max-len": "off",
-    "linebreak-style": ["error", "unix"],
+
     "@typescript-eslint/no-inferrable-types": "off", // no da redundancia al tipar los datos
     "@typescript-eslint/no-explicit-any": "off", // permite  el any
     "@typescript-eslint/indent":"off",
@@ -31,6 +31,12 @@
     "@typescript-eslint/no-unused-vars":"off",
     "@typescript-eslint/comma-spacing":"off", 
     "init-declarations": "off",
-    "quotes": ["error", "single"] // solo permite comillas simples
+    "quotes": ["error", "single"], // solo permite comillas simples
+    "spaced-comment": ["error", "always", { "block": { "balanced": true } }],
+    "no-trailing-spaces": "off",
+    "linebreak-style": "off",
+     "prefer-const": "off",
+     "func-call-spacing": "off",
+     "noInferrableTypes": "false"
   }
 }

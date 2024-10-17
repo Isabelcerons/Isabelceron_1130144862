@@ -1,4 +1,5 @@
-import './types/examplesTypes';
+/* import './types/examplesTypes';
 import './types/examplesArrays';
 import './types/tallertypes';
-import './types/practicalWorkshop';
+import './types/practicalWorkshop'; */
+import './tallermoodle/tallerplataforma';
